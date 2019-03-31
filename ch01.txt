@@ -1,0 +1,23 @@
+using System;
+using static System.Console;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CH01
+{
+    class EX01
+    {
+        static void Main(string[] args)
+        {
+            if(args.Length == 0)
+            {
+                Console.WriteLine("사용법 : HelloWorld.exe <이름>");
+                Console.ReadKey();  //key를 입력받기전까지는 콘솔창을 닫지않겠다
+                return;
+            }
+            WriteLine("Hello {0}!", args[0]);
+        }
+    }
+}

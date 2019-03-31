@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EX02
+{
+    class EX02
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("C# Programming...!");
+            
+            //input에 키보드로부터 받는 입력값 할당
+            string input = Console.ReadLine();  //입력
+            Console.WriteLine("input : " + input);
+
+            Console.ReadKey();
+        }
+    }
+}
