@@ -1,6 +1,6 @@
 using System;
 using static System.Console;    
-//staticÀÎ main()¾È¿¡¼­ Console »ç¿ëX
+//staticì¸ main()ì•ˆì—ì„œ Console ì‚¬ìš©X
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +12,13 @@ namespace FirstProgram
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World...!");   //C++¿¡¼­ cout << "Hello World...!" << endl;
-            Console.WriteLine("È«±æµ¿");
-            Console.WriteLine("±è»ó±æ");
-            Console.Write("ÅÂ¿ìÇü ¾ö¸Ó³ª¼½»ó¿¡!!");
-            Console.Write("È«±æµ¿");
-            Console.Write("±è»ó±æ");
-            WriteLine("Console»ç¿ë x");
+            Console.WriteLine("Hello World...!");   //C++ì—ì„œ cout << "Hello World...!" << endl;
+            Console.WriteLine("í™ê¸¸ë™");
+            Console.WriteLine("ê¹€ìƒê¸¸");
+            Console.Write(" Hello world!!!" );
+            Console.Write("í™ê¸¸ë™");
+            Console.Write("ê¹€ìƒê¸¸");
+            WriteLine("Consoleì‚¬ìš© x");
         }
     }
 }
