@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Class_2
+{
+    //1_클래스 생성 : 하나의 파일에 여러 개의 클래스 생성
+    class Book
+    {
+        public string Title;
+        public string Content;
+        public string Writer;
+        public string publisher;
+        public int published_Date;
+    }
+    class Product
+    {
+        public string name;
+        public int price;
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Book book1 = new Book();
+
+            book1.Title = "상현이는 아이셔를 좋아해!";
+            book1.Content = "마싯쪙!!!!";
+            book1.Writer = "최상현";
+            book1.publisher = "주간 최상현";
+            book1.published_Date = 20190513;
+
+            Console.WriteLine("제목 : " + book1.Title);
+            Console.WriteLine("내용 : " + book1.Content);
+            Console.WriteLine("저자 : " + book1.Writer);
+            Console.WriteLine("출판사 : " + book1.publisher);
+            Console.WriteLine("출판일 : " + book1.published_Date);
+
+            Console.WriteLine();
+
+            //Product product = new Product();
+            //product.name = "감자";
+            //product.price = 2000;
+            //Console.WriteLine(product.name + " : " + product.price + "원");
+
+            //객체 생성과 동시에 {}안에 초기값을 지정해줄 수 있다.
+            Product productA = new Product() { name = "감자", price = 2000 };
+            Product productB = new Product() { name = "고구마", price = 3000 };
+
+            Console.WriteLine(productA.name + " : " + productA.price + "원");
+            Console.WriteLine(productB.name + " : " + productB.price + "원");
+        }
+    }
+}
