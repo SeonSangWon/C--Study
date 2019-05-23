@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Class_1
+{
+    class Book
+    {
+        //Class 안에 있는 변수(필드) 선언
+        //접근 지정자의 default값이 private이기 때문에 Main()에서 접근 불가.
+        //Alt + 드래그 : 원하는 영역 드래그 가능
+         public string Title;
+         public string Content;
+         public string Writer;
+         public string publisher;
+         public int published_Date;
+         
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Book book1 = new Book();
+
+            book1.Title = "상현이는 아이셔를 좋아해!";
+            book1.Content = "마싯쪙!!!!";
+            book1.Writer = "최상현";
+            book1.publisher = "주간 최상현";
+            book1.published_Date = 20190513;
+
+            Console.WriteLine("제목 : " + book1.Title);
+            Console.WriteLine("내용 : " + book1.Content);
+            Console.WriteLine("저자 : " + book1.Writer);
+            Console.WriteLine("출판사 : " + book1.publisher);
+            Console.WriteLine("출판일 : " + book1.published_Date);
+
+            Book book2 = new Book();
+
+            book2.Title = "날아오르라! 비트코인!";
+            book2.Content = "떡상 가즈앗!";
+            book2.Writer = "김태우";
+            book2.publisher = "빗썸";
+            book2.published_Date = 20190513;
+        }
+    }
+}
