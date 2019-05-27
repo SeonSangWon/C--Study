@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Constructor
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //p.192 2.클래스와 인스턴스
+            Cat kitty = new Cat("Kitty", "WHITE");
+
+            kitty.Sound();
+            //Cat클래스의 멤버변수가 public으로 설정되어있어야 Main()에서 접근 가능
+            Console.WriteLine($"이름 : {kitty.Name} 색상 : {kitty.Color}");
+
+            Console.WriteLine();
+
+            //새로운 객체 생성
+            Cat nero = new Cat("Nero", "BLACK");
+            nero.Sound();
+            Console.WriteLine($"이름 : {nero.Name} 색상 : {nero.Color}");
+
+            Console.WriteLine();
+            Console.ReadKey();
+        }
+    }
+}
