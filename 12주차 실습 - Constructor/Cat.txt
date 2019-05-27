@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/*
+ *오늘 배운 내용
+ * 생성자 생성
+ * this 연산자
+ * 메소드
+ * 
+*/
+
+namespace Constructor
+{
+    //class = 객체를 생성해내는 틀
+    //인스턴스 = 객체 같은 말
+    class Cat
+    {
+        public string Name;
+        public string Color;
+
+        //Cat Class의 초기값을 설정해준다.
+        //Main()에서 Cat의 객체를 생성할 때 Cat cat = new Cat()선언할 경우, Default값
+        //컴파일러가 기본 생성자를 자동으로 생성해줌
+        //접근지정자 : Default값으로 Private로 지정됨
+        /*
+        Cat()
+        {
+            Name = "";
+            Color = "";
+        }
+        */
+
+        //기본생성자 설정
+        //생성자의 경우 접근지정자를 지정해주지 않아도 무방하다
+        public Cat()
+        {
+            Name = "default";
+            Color = "default";
+        }
+
+        //매개변수로 Name 과 Color를 받는다
+        //Cat newCat = new Cat("Name", "Color");
+        public Cat(string Name, string Color)
+        {
+            this.Name = Name;
+            this.Color = Color;
+        }
+
+        //고양이 울음소리 함수 생성
+        public void Sound()
+        {
+            Console.WriteLine($"{Name} : 야옹~");
+        }
+    }
+}
