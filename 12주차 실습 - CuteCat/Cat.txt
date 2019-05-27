@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+//고양이와 놀아주면 행복지수(Happiness)가 증가하고
+//놀아주지 않으면 감소하는 프로그램
+namespace CuteCat_B
+{
+    //외부에서 접근 가능하도록 설정
+    public class Cat
+    {
+        public string Name;
+        public int Age;
+        private int Happiness;   //행복지수 : 0 ~ 100 사이의 값
+        
+        public Cat(string Name, int Age)
+        {
+            this.Name = Name;
+            this.Age = Age;
+        }
+
+        public void GetBored()
+        {
+            Happiness -= 10;
+
+            //행복지수가 0보다 작다면 최소 값 : 0으로 지정해준다.
+            if (Happiness < 0)
+                Happiness = 0;
+        }
+
+        public void Play()
+        {
+            Happiness += 10;
+
+            //행복지수가 100을 넘긴다면 최대 값 : 100으로 지정해준다.
+            if (Happiness > 100)
+                Happiness = 100;
+        }
+
+        public void Eat()
+        {
+            Happiness += 20;
+
+            //행복지수가 100을 넘긴다면 최대 값 : 100으로 지정해준다.
+            if (Happiness > 100)
+                Happiness = 100;
+        }
+
+        public string Express()
+        {
+            string message = "";
+
+            if (Happiness >= 80)
+                message = "I'm very Happy~ 야옹~";
+            else if(Happiness >= 60)
+                message = "I'm Happy~ 야옹~";
+            else if (Happiness >= 40)
+                message = "I'm So SO~ 야옹~";
+            else if (Happiness >= 20)
+                message = "I'm Gloomy~ 야옹~";
+            else
+                message = "I'm Sad~ 야옹~";
+
+            //리턴 값을 적어주어야한다
+            return Name + " : " + message;
+        }
+    }
+}
