@@ -1,0 +1,59 @@
+    class Book
+    {
+        public string name;
+        public DateTime publishedDate;
+        public string author;
+        public string owner;
+        public string publisher;
+        public string seniorEditor;
+        public string produce;
+        public string editor;
+        public string designer;
+    }
+
+
+--------------------------------------------------------------------
+static void Main(string[] args)
+        {
+            //해당 유형의 문제 기말고사 출제
+            //p.347 03. 다음과 같은 변수를 가지는 클래스를 만들고 값을 넣어 인스턴스를 생성하시오.
+            Book book = new Book();
+
+            book.name = "C# 프로그래밍입문";
+            book.publishedDate = new DateTime(2018, 9, 20);
+            book.author = "선상원";
+            book.owner = "김태헌";
+            book.publisher = "IT소프트웨어공학과";
+            book.seniorEditor = "김현용";
+            book.produce = "김이화";
+            book.editor = "김이화";
+            book.designer = "여동일";
+
+            Console.WriteLine("이 름 : " + book.name);
+            Console.WriteLine("초판일 : " + book.publishedDate);
+            Console.WriteLine("지은이 : " + book.author);
+            Console.WriteLine("펴낸이 : " + book.owner);
+            Console.WriteLine("펴낸곳 : " + book.publisher);
+            Console.WriteLine("책임편집 : " + book.seniorEditor);
+            Console.WriteLine("기 획 : " + book.produce);
+            Console.WriteLine("편 집 : " + book.editor);
+            Console.WriteLine("디자인 : " + book.designer);
+
+            Console.WriteLine();
+
+            //p.197 List클래스
+            //<> = 제네릭 : 어떤 자료형인지 알려줌
+            List<string> books = new List<string>() { "C# 프로그래밍입문", "DateTime(2018,9,20)", "선상원", "김태헌"
+                                , "IT소프트웨어공학과"};
+            books.Add("김현용");
+            books.Add("김이화");
+            books.Add("김이화");
+            books.Add("여동일");
+
+            foreach(string item in books)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadKey();
+        }
