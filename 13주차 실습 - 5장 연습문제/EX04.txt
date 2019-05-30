@@ -1,0 +1,30 @@
+static void Main(string[] args)
+        {
+            //기말고사 출제 가능성있다.
+            //p.247 04
+            //랜덤 숫자 정수형으로 받기
+            //1~10
+
+            Random random = new Random();
+            int answer = random.Next(1, 200);
+            int num = 0;
+
+            while(true)
+            {
+                Console.Write("숫자를 입력해주세요 : ");
+                num = int.Parse(Console.ReadLine());
+                
+                if(answer > num)
+                {
+                    Console.WriteLine($"{num}보다는 큰 숫자입니다.");
+                }
+                else if(answer < num)
+                {
+                    Console.WriteLine(num + "보다는 작은 숫자입니다.");
+                }
+                else
+                {
+                    Console.WriteLine("정답입니다.!");
+                    break;
+                }
+            }
