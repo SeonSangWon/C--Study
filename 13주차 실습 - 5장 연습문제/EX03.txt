@@ -1,0 +1,29 @@
+namespace EX03
+{
+    class Program
+    {
+        //Book클래스 선언
+        class Book
+        {
+            //public string name;
+            public static string name;  //전역변수로 static : 클래스의 필드로 바로 접근가능
+                                        //객체를 선언할 필요없이 접근 가능
+        }
+
+        static void Main(string[] args)
+        {
+            //중요!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            //지역변수 > 전역변수 처리하는 법 기말고사 필기 나올 수 있다.
+            //필기 + 실기
+            /*  지역변수로 처리
+            Book book = new Book();
+            book.name = "C# 프로그래밍";
+            Console.WriteLine("이름 : " + book.name);
+
+            //전역변수로 처리
+            Book.name = "C# 프로그래밍";
+            Console.WriteLine("이름 : " + Book.name);
+            */
+        }
+    }
+}
