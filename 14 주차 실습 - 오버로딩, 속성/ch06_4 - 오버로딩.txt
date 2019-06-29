@@ -2,7 +2,7 @@ class Program
     {
         class MyMath
         {
-            //¿À¹ö·Îµù ½Ã, ¸Å°³º¯¼öÀÇ µ¥ÀÌÅÍ Å¸ÀÔ ¶Ç´Â ÀÎÀÚ °¹¼ö¸¦ ´Ù¸£°Ô ÁöÁ¤ÇØÁÖÁö ¾ÊÀ¸¸é Error
+            //ì˜¤ë²„ë¡œë”© ì‹œ, ë§¤ê°œë³€ìˆ˜ì˜ ë°ì´í„° íƒ€ìž… ë˜ëŠ” ì¸ìž ê°¯ìˆ˜ë¥¼ ë‹¤ë¥´ê²Œ ì§€ì •í•´ì£¼ì§€ ì•Šìœ¼ë©´ Error
             public static int Abs(int input)
             {
                 if (input < 0) { return -input; }
@@ -36,5 +36,4 @@ class Program
             Console.WriteLine(MyMath.Abs(21474836470));
             Console.WriteLine(MyMath.Abs(-21474836470));
         }
-       
     }
