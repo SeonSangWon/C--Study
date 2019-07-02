@@ -1,0 +1,7 @@
+    //Animal Class¸¦ »ó¼Ó¹Þ´Â´Ù.
+    class Dog : Animal
+    {
+        public string Color { get; set; }
+
+        public void Bark() { Console.WriteLine("¿Ð¿Ð Áþ½À´Ï´Ù."); }
+    }

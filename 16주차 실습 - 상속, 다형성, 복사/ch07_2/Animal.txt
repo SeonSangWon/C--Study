@@ -1,0 +1,9 @@
+    class Animal
+    {
+        public int Age { get; set; }
+
+        public Animal() { this.Age = 0; }
+
+        public void Eat() { Console.WriteLine("³È³È ¸Ô½À´Ï´Ù."); }
+        public void Sleep() { Console.WriteLine("ÄðÄð ÀáÀ» Àâ´Ï´Ù."); }
+    }

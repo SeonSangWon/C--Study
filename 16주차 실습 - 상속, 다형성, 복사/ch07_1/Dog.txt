@@ -1,0 +1,11 @@
+    class Dog
+    {
+        public int Age { get; set; }
+        public string Color { get; set; }
+
+        public Dog() { this.Age = 0; }
+
+        public void Eat() { Console.WriteLine("³È³È ¸Ô½À´Ï´Ù."); }
+        public void Sleep() { Console.WriteLine("ÄðÄð ÀáÀ» Àâ´Ï´Ù."); }
+        public void Bark() { Console.WriteLine("¿Ð¿Ð Áþ½À´Ï´Ù."); }
+    }

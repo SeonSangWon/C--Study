@@ -1,0 +1,28 @@
+        static void Main(string[] args)
+        {
+            //p.326 다형성
+
+            List<Animal> animals = new List<Animal>()
+            {
+                new Dog(), new Cat(),new Cat(),new Dog(),
+                new Dog(), new Cat(),new Cat(),new Dog()
+            };
+
+            foreach(var items in animals)
+            {
+                items.Eat();
+                items.Sleep();
+
+                Console.WriteLine();
+
+                //강제형변환할 경우 속도나 기능이 다소 떨어질 수 있음.
+                //if(items is Dog) { ((Dog)items).Bark(); }
+                //if(items is Cat) { ((Cat)items).Bark(); }
+
+                //미리 선언해주고 해당 조건에 맞게 처리하게 해주면 훨씬 더 효율적
+                var dog = items as Dog;
+                if(dog != null){ dog.Bark(); }
+                var cat = items as Cat;
+                if (cat != null) { cat.Bark(); }
+            }
+        }

@@ -1,0 +1,24 @@
+namespace ValueRef3
+{
+    class Program
+    {
+        class Myclass
+        {
+            public int MyField1;
+            public int MyField2;
+        }
+
+        static void Main(string[] args)
+        {
+            Myclass source = new Myclass();
+            source.MyField1 = 10;
+            source.MyField2 = 20;
+
+            Myclass target = source;
+            target.MyField2 = 30;
+
+            Console.WriteLine($"{source.MyField1}, {source.MyField2}"); //10, 30
+            Console.WriteLine($"{target.MyField1}, {target.MyField2}"); //10, 30
+        }
+    }
+}

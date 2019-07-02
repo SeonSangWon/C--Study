@@ -1,0 +1,24 @@
+        static void Main(string[] args)
+        {
+            //리스트 배열에 객체를 생성
+            //ArrayList<>의 경우 한 가지 자료형만 사용가능 / 이외의 자료형은 그때그때 형변환
+            //List<>의 경우 여러 자료형을 사용가능
+            //List안에 자료형을 객체로 생성
+            List<Dog> Dogs = new List<Dog>() { new Dog(), new Dog(), new Dog() };
+            List<Cat> Cats = new List<Cat>() { new Cat(), new Cat(), new Cat() };
+
+            foreach(var items in Dogs)
+            {
+                items.Eat();
+                items.Sleep();
+                items.Bark();
+            }
+
+            Console.WriteLine();
+
+            foreach (var items in Cats)
+            {
+                items.Eat();
+                items.Sleep();
+                items.Bark();
+            }

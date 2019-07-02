@@ -1,0 +1,5 @@
+    //Animal Class를 상속받는다.
+    class Cat : Animal
+    {
+        public void Bark() { Console.WriteLine("냥냥 짓습니다."); }
+    }

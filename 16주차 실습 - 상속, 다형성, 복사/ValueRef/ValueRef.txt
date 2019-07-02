@@ -1,0 +1,32 @@
+namespace ValueRef
+{
+    class Program
+    {
+        //ref : 참조
+        //static void Change(ref int input)
+        static void Change(out int input)
+        {
+            input = 20;
+        }
+
+        static void Main(string[] args)
+        {
+            //값에 의한 복사
+            //결과 10
+            //int a = 10;
+            //Change(a);
+
+            //참조에 의한 복사
+            //참조에 의한 복사할 경우 ref키워드와 함께 전달해야한다.
+            //참조 키워드 : ref / out
+            //결과 20
+            //int a = 10;
+            //Change(ref a);
+
+            int a = 10;
+            Change(out a);
+
+            Console.WriteLine(a);
+        }
+    }
+}

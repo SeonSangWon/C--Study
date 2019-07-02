@@ -1,0 +1,10 @@
+    class Cat
+    {
+        public int Age { get; set; }
+
+        public Cat() { this.Age = 0; }
+
+        public void Eat() { Console.WriteLine("³È³È ¸Ô½À´Ï´Ù."); }
+        public void Sleep() { Console.WriteLine("ÄðÄð ÀáÀ» Àâ´Ï´Ù."); }
+        public void Bark() { Console.WriteLine("³É³É Áþ½À´Ï´Ù."); }
+    }
