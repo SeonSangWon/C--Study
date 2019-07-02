@@ -1,0 +1,41 @@
+static void Main(string[] args)
+        {
+            /*
+            BoxA boxA = new BoxA(10, 10);
+            int result = boxA.Area();
+
+            Console.WriteLine(result);
+
+            //캡슐화
+            //같은 class내에서는 필드 변수가 private라도 접근가능하다. [객체를 생성하며 접근]
+            BoxB boxB = new BoxB(10, 10);
+            int result = boxB.Area();
+
+            //private이기 때문에 필드에 바로 접근할 수 없다.
+            boxB.width = 10;
+
+            Console.WriteLine(result);
+            
+            //겟터 셋터 메소드
+            BoxC boxC = new BoxC(10, 10);
+            //셋터 메소드로 새로운 너비와 높이를 읽어드림
+            boxC.SetWidth(20);  boxC.SetHeight(20);
+            int result = boxC.Area();
+
+            Console.WriteLine(result);
+            
+            //Property
+            BoxD boxD = new BoxD(10, 10);
+            boxD.Width = 50;    boxD.Height = 50;
+            int result = boxD.Area();
+
+            Console.WriteLine(result);
+            */
+
+            //간단한 Property
+            BoxE boxE = new BoxE();
+            boxE.Width = 50;    boxE.Height = 50;
+            int result = boxE.Area();
+
+            Console.WriteLine(result);
+        }

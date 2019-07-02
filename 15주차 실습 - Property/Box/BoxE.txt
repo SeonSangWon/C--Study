@@ -1,0 +1,11 @@
+class BoxE
+    {
+        //간단한 Property 만들기 p.285
+        public int Width{ get; set; }
+        public int Height{ get; set; }
+
+        public int Area()
+        {
+            return this.Width * this.Height;
+        }
+    }

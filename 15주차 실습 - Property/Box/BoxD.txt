@@ -1,0 +1,44 @@
+class BoxD
+    {
+        //Property p.283
+        private int width;  //변수
+        public int Width    //속성
+        {
+            get { return width; }
+            set
+            {
+                if (value > 0) { this.width = value; }
+                else { Console.WriteLine("너비는 자연수를 입력해주세요."); }
+            }
+        }
+
+        private int height;
+        public int Height
+        {
+            get { return height; }
+            set
+            {
+                if (value > 0) { this.height = value; }
+                else { Console.WriteLine("높이는 자연수를 입력해주세요."); }
+            }
+        }
+
+        //생성자 정의
+        public BoxD(int width, int height)
+        {
+            if (width > 0 && height > 0)
+            {
+                this.Width = width;
+                this.Height = height;
+            }
+            else
+            {
+                Console.WriteLine("너비와 높이는 자연수로 초기화해주세요!");
+            }
+        }
+
+        public int Area()
+        {
+            return this.width * this.height;
+        }
+    }
