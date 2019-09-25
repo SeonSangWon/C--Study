@@ -1,0 +1,10 @@
+D:\201507046\2주차\Image\Image\bin\Debug\Image.exe.config
+D:\201507046\2주차\Image\Image\bin\Debug\Image.exe
+D:\201507046\2주차\Image\Image\bin\Debug\Image.pdb
+D:\201507046\2주차\Image\Image\obj\Debug\Image.csprojAssemblyReference.cache
+D:\201507046\2주차\Image\Image\obj\Debug\Image.Form1.resources
+D:\201507046\2주차\Image\Image\obj\Debug\Image.Properties.Resources.resources
+D:\201507046\2주차\Image\Image\obj\Debug\Image.csproj.GenerateResource.cache
+D:\201507046\2주차\Image\Image\obj\Debug\Image.csproj.CoreCompileInputs.cache
+D:\201507046\2주차\Image\Image\obj\Debug\Image.exe
+D:\201507046\2주차\Image\Image\obj\Debug\Image.pdb
