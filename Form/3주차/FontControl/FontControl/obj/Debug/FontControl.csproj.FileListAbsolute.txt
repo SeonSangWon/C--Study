@@ -1,0 +1,10 @@
+D:\201507046\3주차\FontControl\FontControl\bin\Debug\FontControl.exe.config
+D:\201507046\3주차\FontControl\FontControl\bin\Debug\FontControl.exe
+D:\201507046\3주차\FontControl\FontControl\bin\Debug\FontControl.pdb
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.Form1.resources
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.Properties.Resources.resources
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.csproj.GenerateResource.cache
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.csproj.CoreCompileInputs.cache
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.exe
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.pdb
+D:\201507046\3주차\FontControl\FontControl\obj\Debug\FontControl.csprojAssemblyReference.cache
