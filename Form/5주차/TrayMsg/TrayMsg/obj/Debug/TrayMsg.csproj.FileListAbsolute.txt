@@ -1,0 +1,11 @@
+D:\201507046\5주차\TrayMsg\TrayMsg\bin\Debug\TrayMsg.exe.config
+D:\201507046\5주차\TrayMsg\TrayMsg\bin\Debug\TrayMsg.exe
+D:\201507046\5주차\TrayMsg\TrayMsg\bin\Debug\TrayMsg.pdb
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.csprojAssemblyReference.cache
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.Form1.resources
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.Form2.resources
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.Properties.Resources.resources
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.csproj.GenerateResource.cache
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.csproj.CoreCompileInputs.cache
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.exe
+D:\201507046\5주차\TrayMsg\TrayMsg\obj\Debug\TrayMsg.pdb
