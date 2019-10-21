@@ -1,0 +1,69 @@
+        static void Main(string[] args)
+        {
+            //기본자료형
+            //정수, 실수, 문자, 문자열, 불(참 과 거짓, 비교연산자, 논리연산자)
+            Console.WriteLine("C# Programming!");
+            Console.WriteLine();
+            Console.WriteLine('A');
+            Console.WriteLine(273);
+            Console.WriteLine(10 + 20 + 30 * 2);
+            Console.WriteLine(7 % 3);
+            Console.WriteLine(-4 % 3); //앞의 피연산자의 부호에 따라 결과값의 부호가 바뀐다.
+            Console.WriteLine(52.273);
+            Console.WriteLine(1.0 * 2.0);
+            Console.WriteLine("유한대학교\tIT소프트웨어공학과");
+            Console.WriteLine("유한대학교\nIT소프트웨어공학과");
+            Console.WriteLine("유한대학교" + "IT소프트웨어공학과");
+            Console.WriteLine("안녕하세요"[2]);  //문자열의 2번째 index를 뽑아 출력
+            Console.WriteLine();
+
+            //변수
+            /*
+            int a = 273;
+            int b = 52;
+
+            Console.WriteLine(a);
+            Console.WriteLine(a + b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(a % b);
+            */
+
+            //int형은 2의 31제곱까지 표현 가능하다. [-2,147,483,648 ~ 2,147,483,648]
+            //int a = 2000000000;
+            //int b = 1000000000;
+            //Console.WriteLine(a + b); //메모리공간 보다 큰 값을 연산하면
+            //오버플로우 or 언더플로우가 발생하여 정확한 값X
+
+            //강제형변환
+            //Console.WriteLine((long)a + b);
+            //Console.WriteLine(a + (long)b);
+            //Console.WriteLine((long)a + (long)b);
+
+            //Console.WriteLine(123456 + 654321L);    //long형
+
+            //실수 자료형
+            double a = 52.273;
+            double b = 103.21;
+
+            Console.WriteLine(a + b);
+            Console.WriteLine(a - b);
+            Console.WriteLine(a * b);
+            Console.WriteLine(a / b);
+            Console.WriteLine(52.273f + 103.32);
+
+            //sizeof 연산자와 자료형의 크기
+            Console.WriteLine("int : " + sizeof(int));
+            Console.WriteLine("long : " + sizeof(long));
+            Console.WriteLine("float : " + sizeof(float));
+            Console.WriteLine("double : " + sizeof(double));
+            Console.WriteLine("char : " + sizeof(char));
+
+            //문자 자료형
+
+            //문자열 자료형
+
+
+
+            Console.ReadKey();
+        }
