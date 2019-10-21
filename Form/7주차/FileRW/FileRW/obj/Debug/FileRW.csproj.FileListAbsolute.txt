@@ -1,0 +1,10 @@
+D:\201507046\7주차\FileRW\FileRW\bin\Debug\FileRW.exe.config
+D:\201507046\7주차\FileRW\FileRW\bin\Debug\FileRW.exe
+D:\201507046\7주차\FileRW\FileRW\bin\Debug\FileRW.pdb
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.csprojAssemblyReference.cache
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.Form1.resources
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.Properties.Resources.resources
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.csproj.GenerateResource.cache
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.csproj.CoreCompileInputs.cache
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.exe
+D:\201507046\7주차\FileRW\FileRW\obj\Debug\FileRW.pdb

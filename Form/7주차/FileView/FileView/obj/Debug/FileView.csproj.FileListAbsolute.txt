@@ -1,0 +1,10 @@
+D:\201507046\7주차\FileView\FileView\bin\Debug\FileView.exe.config
+D:\201507046\7주차\FileView\FileView\bin\Debug\FileView.exe
+D:\201507046\7주차\FileView\FileView\bin\Debug\FileView.pdb
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.csprojAssemblyReference.cache
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.Form1.resources
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.Properties.Resources.resources
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.csproj.GenerateResource.cache
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.csproj.CoreCompileInputs.cache
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.exe
+D:\201507046\7주차\FileView\FileView\obj\Debug\FileView.pdb
