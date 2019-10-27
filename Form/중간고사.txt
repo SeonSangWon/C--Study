@@ -1,0 +1,12 @@
+5주차(3개), 6주차(2개), 7주차(1개)
+
+디자인 폼을 던져줌.
+1. 수행하기위한 NameSpace (using System ~~)
+2. 멤버 변수에서 무엇을 선언한 건지 데이터타입?? delegate, Thread등등 ...
+3. Invoke() delegate, Thread
+4. using키워드
+5. try ~ catch문
+
+
+문제 2문제 정도
+어느정도 다르게 나오나 내용은 똑같음
